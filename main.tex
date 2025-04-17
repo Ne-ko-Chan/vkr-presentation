@@ -9,7 +9,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \title{Изучение методов фрактального сжатия для различных типов информации}
-% \author[author1]{Милов Данила Константинович\\[10mm]{\small Руководитель: Дудаков Сергей Михайлович}}
+\author[author1]{Милов Данила Константинович\\[10mm]{\small Руководитель: Дудаков Сергей Михайлович}}
 \date{\today}
 \begin{document}
   \begin{frame}
@@ -62,10 +62,14 @@
 
   \section{Иллюстрация алгоритма}
   \begin{frame}\frametitle{\insertsection}
-
+    \begin{figure}
+      \begin{center}
+        \includegraphics[width=\textwidth]{./images/algorithm-illustration.png}
+      \end{center}
+    \end{figure}
   \end{frame}
 
-  \section{CLI-интерфейс сжатия изображений}
+  \section{CLI-интерфейс программы}
   \begin{frame}\frametitle{\insertsection}
    \begin{figure}
     \begin{center}
@@ -93,6 +97,18 @@
   \section{Пример работы программы}
   \begin{frame}\frametitle{\insertsection}
     Work In Progress
+  \end{frame}
+
+  \section{Заключение}
+  \begin{frame}\frametitle{\insertsection}
+    \large
+    В ходе работы были изучены и запрограммированы методы фрактального сжатия изображений и звука. Среди дальнейших улучшений можно выделить:
+    \begin{enumerate}
+      \item Более компактное представление фрактальных кодов в виде файла.
+      \item Оптимизации и эвристики, направленные на ускорение сжатия.
+      \item Создание графического интерфейса, позволяющего удобно регулировать параметры и управлять процессом кодирования и декодирования.
+    \end{enumerate}
+    \normalfont
   \end{frame}
 
   \section*{Спасибо за внимание!}
